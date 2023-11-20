@@ -31,8 +31,10 @@
         }
         public void ShowArray()
         {
-            for(int i = 0; i < BookCount; i++)
+            Console.WriteLine("__________________________________Library__________________________________");
+            for (int i = 0; i < BookCount; i++)
                 Console.WriteLine(Books[i].DisplayBookInfo());
+            Console.WriteLine("___________________________________________________________________________");
         }
     }
 }
